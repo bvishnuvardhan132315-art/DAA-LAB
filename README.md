@@ -1,4 +1,5 @@
-summary:
+# practical 1
+# summary and conclusion:
 
 Bubble Sort repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
 worst case of time complexity is O((n)^2) it means the array is in reverse order 
@@ -19,8 +20,6 @@ Quick Sort chooses an element as a "pivot" and partitions the remaining elements
 two sub-arrays according to whether they are less than or greater than the pivot.
 worst case of time complexity is O((n)^2)
 
-conclusion:
-
 implementation and time analysis of sorting algorithm is successfully completed 
 There is no single "best" sorting algorithm; the choice depends entirely on the constraints of your environment and data structures
 
@@ -32,3 +31,12 @@ or when sorting linked lists and external files where sequential memory access i
 
 Use Quick Sort for general-purpose, high-performance, in-memory sorting on massive arrays, 
 provided you implement randomized pivot choices to protect against the \(O(n^2)\) worst-case bottleneck.
+
+# practical 2
+# summary and conclusion
+
+Linear Search Worst Case (O(n)): Occurs when the target element is at the very end of the array or does not exist at all, 
+forcing the program to evaluate all n items
+
+Linear Search Worst Case (O(n)): Occurs when the target element is at the very end of the array or does not exist at all, 
+forcing the program to evaluate all n items

@@ -38,8 +38,7 @@ provided you implement randomized pivot choices to protect against the \(O(n^2)\
 Linear Search Worst Case (O(n)): Occurs when the target element is at the very end of the array or does not exist at all, 
 forcing the program to evaluate all n items
 
-Linear Search Worst Case (O(n)): Occurs when the target element is at the very end of the array or does not exist at all, 
-forcing the program to evaluate all n items
+Binary search is an efficient algorithm used to find the position of a target value within a sorted array by repeatedly dividing the search interval in half. It boasts a worst-case time complexity of (O(log n)) and a space complexity of O(1) when implemented iteratively.
 
 # PRACTICAL-3
 # Summary

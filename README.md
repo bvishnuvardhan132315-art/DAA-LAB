@@ -1,4 +1,4 @@
-# practical 1
+# PRACTICAL 1
 # summary :
 
 Bubble Sort repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
@@ -48,7 +48,7 @@ Heap Sort is an efficient comparison-based sorting algorithm that uses a Max Hea
 Heap Sort is a reliable and efficient sorting algorithm with a time complexity of O(n log n) in the best, average, and worst cases. It sorts the array in-place, requiring only O(1) extra space. Because of its consistent performance and low memory usage, Heap Sort is well suited for applications where predictable execution time and efficient memory utilization are important.
 
 
-# practical 4
+# PRACTICAL 4
 
 # Summary: 
 Factorial can be calculated using both iterative and recursive methods.
@@ -58,3 +58,16 @@ The iterative method uses O(1) space, while recursion uses O(n) stack space.
 # Conclusion:
 Iteration is more memory-efficient, while recursion is easier to understand.
 
+# PRACTICAL 7
+
+# Summary
+
+The Coin Change problem finds the minimum number of coins needed to make a given amount.
+Dynamic Programming stores solutions to smaller amounts and uses them to solve larger amounts.
+The dp array stores the minimum number of coins required for each amount.
+The coinUsed array keeps track of which coin was selected.
+Finally, the program displays both the minimum number of coins and the coins used.
+
+# Conclusion
+
+Dynamic Programming provides an efficient solution to the Coin Change problem. It avoids repeated calculations by storing previous results. The algorithm can find the minimum number of coins efficiently. It also helps identify the actual coins used to form the required amount.

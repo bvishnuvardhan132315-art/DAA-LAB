@@ -46,11 +46,15 @@ Heap Sort is an efficient comparison-based sorting algorithm that uses a Max Hea
 
 # Conclusion
 Heap Sort is a reliable and efficient sorting algorithm with a time complexity of O(n log n) in the best, average, and worst cases. It sorts the array in-place, requiring only O(1) extra space. Because of its consistent performance and low memory usage, Heap Sort is well suited for applications where predictable execution time and efficient memory utilization are important.
-#practical 4
-#Summary: 
+
+
+# practical 4
+
+# Summary: 
 Factorial can be calculated using both iterative and recursive methods.
 Both methods have O(n) time complexity.
 The iterative method uses O(1) space, while recursion uses O(n) stack space.
-#Conclusion:
+
+# Conclusion:
 Iteration is more memory-efficient, while recursion is easier to understand.
 

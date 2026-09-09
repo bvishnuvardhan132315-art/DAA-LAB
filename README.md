@@ -57,6 +57,16 @@ The iterative method uses O(1) space, while recursion uses O(n) stack space.
 
 # Conclusion:
 Iteration is more memory-efficient, while recursion is easier to understand.
+# practical 5
+# Summary
+The 0/1 Knapsack Problem is a dynamic programming problem where each item can either be selected or not selected. The goal is to maximize the total value of selected items without exceeding the given capacity. The C++ program uses a 1D DP array to efficiently calculate the maximum possible value.
+# Conclusion
+The program successfully solves the 0/1 Knapsack Problem using Dynamic Programming. It provides an efficient solution by avoiding repeated calculations and ensures that each item is selected at most once.
+# practical 6
+# Summary
+The 0/1 Knapsack Problem is a classic optimization puzzle focused on selecting items to maximize total value without exceeding a fixed weight capacity.Each item offers a specific weight and value, requiring a binary choice: take the item completely (1) or leave it (0).A brute-force approach requires examining all possible subsets, leading to an impractical exponential $O(2^n)$ time complexity.Dynamic Programming resolves this efficiently by breaking the main problem into smaller capacity subproblems and storing the optimal results in a table.Real-world applications include financial budget allocation, cargo loading optimization, and network bandwidth distribution.
+# Conclusion
+The Knapsack Problem is a fundamental benchmark in computer science that proves how Dynamic Programming turns computationally intractable NP-complete challenges into optimal, practical solutions.
 
 # PRACTICAL 7
 
@@ -71,8 +81,3 @@ Finally, the program displays both the minimum number of coins and the coins use
 # Conclusion
 
 Dynamic Programming provides an efficient solution to the Coin Change problem. It avoids repeated calculations by storing previous results. The algorithm can find the minimum number of coins efficiently. It also helps identify the actual coins used to form the required amount.
-# practical 6
-# Summary
-The 0/1 Knapsack Problem is a classic optimization puzzle focused on selecting items to maximize total value without exceeding a fixed weight capacity.Each item offers a specific weight and value, requiring a binary choice: take the item completely (1) or leave it (0).A brute-force approach requires examining all possible subsets, leading to an impractical exponential $O(2^n)$ time complexity.Dynamic Programming resolves this efficiently by breaking the main problem into smaller capacity subproblems and storing the optimal results in a table.Real-world applications include financial budget allocation, cargo loading optimization, and network bandwidth distribution.
-# Conclusion
-The Knapsack Problem is a fundamental benchmark in computer science that proves how Dynamic Programming turns computationally intractable NP-complete challenges into optimal, practical solutions.

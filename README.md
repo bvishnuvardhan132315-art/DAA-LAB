@@ -64,11 +64,12 @@ The 0/1 Knapsack Problem is a dynamic programming problem where each item can ei
 The program successfully solves the 0/1 Knapsack Problem using Dynamic Programming. It provides an efficient solution by avoiding repeated calculations and ensures that each item is selected at most once.
 # practical 6
 # Summary
-The 0/1 Knapsack Problem is a classic optimization puzzle focused on selecting items to maximize total value without exceeding a fixed weight capacity.Each item offers a specific weight and value, requiring a binary choice: take the item completely (1) or leave it (0).A brute-force approach requires examining all possible subsets, leading to an impractical exponential $O(2^n)$ time complexity.Dynamic Programming resolves this efficiently by breaking the main problem into smaller capacity subproblems and storing the optimal results in a table.Real-world applications include financial budget allocation, cargo loading optimization, and network bandwidth distribution.
-# Conclusion
-The Knapsack Problem is a fundamental benchmark in computer science that proves how Dynamic Programming turns computationally intractable NP-complete challenges into optimal, practical solutions.
 
-# PRACTICAL 7
+Matrix Chain Multiplication is a Dynamic Programming technique used to find the most efficient order for multiplying a sequence of matrices. It calculates the cost of different multiplication orders and stores the minimum cost in a DP table. This avoids repeated calculations and improves efficiency. It is useful in areas such as AI/ML, computer graphics, image processing, and computer vision.
+
+# Conclusion
+
+Matrix Chain Multiplication using Dynamic Programming helps minimize the number of scalar multiplications, which reduces computation time and resource usage. The method has a time complexity of O(n³) and space complexity of O(n²). Therefore, it is an efficient approach for optimizing a large sequence of matrix multiplications.
 
 # Summary
 

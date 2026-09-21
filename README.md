@@ -70,7 +70,7 @@ Matrix Chain Multiplication is a Dynamic Programming technique used to find the 
 # Conclusion
 
 Matrix Chain Multiplication using Dynamic Programming helps minimize the number of scalar multiplications, which reduces computation time and resource usage. The method has a time complexity of O(n³) and space complexity of O(n²). Therefore, it is an efficient approach for optimizing a large sequence of matrix multiplications.
-
+# practical 7
 # Summary
 
 The Coin Change problem finds the minimum number of coins needed to make a given amount.
@@ -82,3 +82,9 @@ Finally, the program displays both the minimum number of coins and the coins use
 # Conclusion
 
 Dynamic Programming provides an efficient solution to the Coin Change problem. It avoids repeated calculations by storing previous results. The algorithm can find the minimum number of coins efficiently. It also helps identify the actual coins used to form the required amount.
+# practical 8
+# Summary
+In this program, we implemented two graph traversal techniques: Depth First Search (DFS) and Breadth First Search (BFS) using C++. DFS visits a node and then explores its adjacent nodes deeply before backtracking. BFS visits nodes level by level using a queue. Both methods use a visited array to avoid visiting the same node multiple times.
+
+# Conclusion
+DFS and BFS are important graph traversal algorithms used to visit all reachable nodes in a graph. DFS is useful when we need to explore a path deeply, while BFS is useful for level-wise traversal and finding the shortest path in an unweighted graph. This program demonstrates the basic working and traversal order of both algorithms.

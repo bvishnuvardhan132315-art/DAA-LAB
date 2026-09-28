@@ -57,12 +57,12 @@ The iterative method uses O(1) space, while recursion uses O(n) stack space.
 
 # Conclusion:
 Iteration is more memory-efficient, while recursion is easier to understand.
-# practical 5
+# Practical 5
 # Summary
 The 0/1 Knapsack Problem is a dynamic programming problem where each item can either be selected or not selected. The goal is to maximize the total value of selected items without exceeding the given capacity. The C++ program uses a 1D DP array to efficiently calculate the maximum possible value.
 # Conclusion
 The program successfully solves the 0/1 Knapsack Problem using Dynamic Programming. It provides an efficient solution by avoiding repeated calculations and ensures that each item is selected at most once.
-# practical 6
+# Practical 6
 # Summary
 
 Matrix Chain Multiplication is a Dynamic Programming technique used to find the most efficient order for multiplying a sequence of matrices. It calculates the cost of different multiplication orders and stores the minimum cost in a DP table. This avoids repeated calculations and improves efficiency. It is useful in areas such as AI/ML, computer graphics, image processing, and computer vision.
@@ -70,7 +70,7 @@ Matrix Chain Multiplication is a Dynamic Programming technique used to find the 
 # Conclusion
 
 Matrix Chain Multiplication using Dynamic Programming helps minimize the number of scalar multiplications, which reduces computation time and resource usage. The method has a time complexity of O(n³) and space complexity of O(n²). Therefore, it is an efficient approach for optimizing a large sequence of matrix multiplications.
-# practical 7
+# Practical 7
 # Summary
 
 The Coin Change problem finds the minimum number of coins needed to make a given amount.
@@ -82,9 +82,15 @@ Finally, the program displays both the minimum number of coins and the coins use
 # Conclusion
 
 Dynamic Programming provides an efficient solution to the Coin Change problem. It avoids repeated calculations by storing previous results. The algorithm can find the minimum number of coins efficiently. It also helps identify the actual coins used to form the required amount.
-# practical 8
+# Practical 8
 # Summary
 In this program, we implemented two graph traversal techniques: Depth First Search (DFS) and Breadth First Search (BFS) using C++. DFS visits a node and then explores its adjacent nodes deeply before backtracking. BFS visits nodes level by level using a queue. Both methods use a visited array to avoid visiting the same node multiple times.
 
 # Conclusion
 DFS and BFS are important graph traversal algorithms used to visit all reachable nodes in a graph. DFS is useful when we need to explore a path deeply, while BFS is useful for level-wise traversal and finding the shortest path in an unweighted graph. This program demonstrates the basic working and traversal order of both algorithms.
+# Practical 9
+# Summary
+Prim’s Algorithm is used to find the Minimum Spanning Tree (MST) of a weighted graph.
+It starts from one vertex and repeatedly selects the smallest edge connecting a visited vertex to an unvisited vertex.
+# Conclusion
+Prim’s Algorithm successfully connects all vertices with the minimum possible total edge weight, without forming a cycle. For the given graph, the Minimum Spanning Tree has a total weight of 16.

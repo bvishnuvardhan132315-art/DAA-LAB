@@ -105,3 +105,8 @@ The Floyd–Warshall algorithm is used to find the shortest distances between al
 
 # Conclusion:
 The Floyd–Warshall algorithm efficiently calculates the shortest paths between every pair of vertices. It works with positive and negative edge weights but does not support negative-weight cycles.
+# practical 12
+# Summary
+The Travelling Salesman Problem finds the shortest possible route that visits every city exactly once and returns to the starting city. The program checks all possible routes using permutations.
+# Conclusion
+The brute-force method provides the optimal solution to the Travelling Salesman Problem by comparing all possible routes. However, its time complexity is \(O(n!)\), so it becomes inefficient when the number of cities increases.

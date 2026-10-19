@@ -99,3 +99,9 @@ Prim’s Algorithm successfully connects all vertices with the minimum possible 
 Kruskal’s algorithm is a greedy algorithm used to find the Minimum Spanning Tree (MST) of a weighted, undirected graph. It sorts all edges in ascending order of weight and selects the smallest edges without forming a cycle until \(V-1\) edges are selected.
 # Conclusion
 Kruskal’s algorithm efficiently finds the Minimum Spanning Tree with minimum total edge weight. It is useful in network design and connectivity problems. The algorithm has a time complexity of \(O(E \log E)\), where \(E\) is the number of edges.
+# practical 11
+# Summary: 
+The Floyd–Warshall algorithm is used to find the shortest distances between all pairs of vertices in a graph. It uses an adjacency matrix and updates distances by checking intermediate vertices. Its time complexity is \\(O(V^3)\\).
+
+# Conclusion:
+The Floyd–Warshall algorithm efficiently calculates the shortest paths between every pair of vertices. It works with positive and negative edge weights but does not support negative-weight cycles.
